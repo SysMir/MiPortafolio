@@ -1,0 +1,171 @@
+#main .carousel-inner img{
+	max-height: 95vh;
+	object-fit: cover;
+}
+
+#carousel{
+  position: relative;
+}
+
+#carousel .overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+}
+
+#carousel .overlay p{
+    font-size: 19px;
+}
+
+#carousel .overlay .container, #carousel .overlay .row {
+  height: 100%;
+}
+
+#carousel .overlay h1{
+  font-size: 3rem;
+}
+
+.page-hr{
+    border-color: #1cafa3;
+    border-width: 2px;
+    max-width: 50%;
+}
+
+.img-service{
+  height: 130px;
+}
+
+.margin-section-top{
+  padding-top: 5rem!important;
+}
+
+.text-aquamarine{
+  color: #1cafa3;
+}
+
+.text-white{
+  color: #fff;
+}
+
+.bg-aquamarine{
+  /**background: #F05F40;**/
+  background: #1cafa3;
+}
+
+#sobreMi p{
+  font-size: 1.2rem;
+}
+
+.page-hr-white{
+    border-color: #fff;
+    border-width: 2px;
+    max-width: 50%;
+}
+
+.div-portafolio{
+	width: 350px;
+  height: 190px;
+	position: relative;
+	overflow: hidden;
+  object-fit: cover;
+}
+
+
+.div-portafolio .info {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+
+.div-portafolio img {
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  height: inherit;
+}
+
+.div-portafolio .info {
+  background: #333333;
+  background: rgba(0, 0, 0, 0.6);
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+
+  -webkit-transform: translateY(100%);
+  -moz-transform: translateY(100%);
+  -ms-transform: translateY(100%);
+  -o-transform: translateY(100%);
+  transform: translateY(100%);
+}
+
+.div-portafolio .info h5 {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  padding: 10px;
+  background: #111111;
+  margin: 30px 0 0 0;
+  line-height: 1.5em;
+}
+
+.div-portafolio .info p {
+  font-style: italic;
+  font-size: 12px;
+  position: relative;
+  color: #bbb;
+  padding: 20px 20px 20px;
+  text-align: center;
+}
+
+.div-portafolio:hover img {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.div-portafolio:hover .info {
+  visibility: visible;
+  opacity: 1;
+}
+
+.div-portafolio:hover .info {
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  transform: translateY(0);
+}
+
+
+#footer{
+  background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
+  color:#fff;
+}
+
+#footer p{
+  margin:20px 0;
+}
+
+.contactanos-email img{
+  width: 20%;
+}
+
